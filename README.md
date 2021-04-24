@@ -272,3 +272,43 @@ Membuat dokumen HTML dengan nama file lab5_javascript.html seperti berikut.
   </body>
 </html>
 ```
+![4.2.1](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/4.2.1.PNG)
+![4.2.2](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/4.2.2.PNG)
+![4.2.3](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/4.2.3.PNG)
+![4.2.4](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/4.2.4.PNG)
+
+## HTML DOM
+Pilihan menggunakan checkBox dengan perhitungan otomatis.
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Daftar Menu</title>
+    <script type="text/javascript">
+      function hitung(ele){
+        var total = document.getElementById('total').value;
+            total = (total ? parseInt(total) : 0);
+        var harga = 0;
+
+        if (ele.checked) {
+            harga = ele.value;
+            total += parseInt(harga);
+        }else {
+            harga = ele.value;
+            if (total > 0)
+                total -= parseInt(harga);
+        }
+        document.getElementById('total').value = total;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Daftar Menu Makanan</h1>
+    <label><input type="checkbox" value="5000" id="menu1" onclick="hitung(this);"/>Ayam Goreng Rp. 5.000</label><br/>
+    <label><input type="checkbox" value="500" id="menu2" onclick="hitung(this);"/>Tempe Goreng Rp. 500</label><br/>
+    <label><input type="checkbox" value="2500" id="menu3" onclick="hitung(this);"/>Telur Dadar Rp. 2.2500</label><br/>
+    <strong>Total Bayar: Rp. <input id="total" type="text"/></strong>
+  </body>
+</html>
+```
