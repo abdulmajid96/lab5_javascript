@@ -45,6 +45,8 @@ Membuat dokumen HTML dengan nama file lab5_javascript.html seperti berikut.
   </body>
 </html>
 ```
+![2.1](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/2.1.PNG)
+
 2. Pemakaian Method dalam objek.
 ```HTML
 <!DOCTYPE html>
@@ -64,6 +66,8 @@ Membuat dokumen HTML dengan nama file lab5_javascript.html seperti berikut.
   </body>
 </html>
 ```
+![2.2](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/2.2.PNG)
+
 3. Pemakaian prompt
 ```html
 <!DOCTYPE html>
@@ -82,4 +86,7 @@ Membuat dokumen HTML dengan nama file lab5_javascript.html seperti berikut.
   </body>
 </html>
 ```
+![2.3.1](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/2.3.1.PNG)
+![2.3.2](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/2.3.2.PNG)
+
 4. Pembuatan fungsi dan cara pemanggilannya.
