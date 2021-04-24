@@ -362,3 +362,7 @@ Pilihan menggunakan checkBox dengan perhitungan otomatis.
     </body>
 </html>
 ```
+tampilan formnya seperti ini.
+![J1.1](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/J1.1.PNG)
+Jika form belum diisi lengkap, maka program javascript akan melakukan validasi dan memberikan pemberitahuan agar form diisi lengkap.
+![J1.2](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/J1.2.PNG)
