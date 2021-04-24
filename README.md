@@ -90,3 +90,72 @@ Membuat dokumen HTML dengan nama file lab5_javascript.html seperti berikut.
 ![2.3.2](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/2.3.2.PNG)
 
 4. Pembuatan fungsi dan cara pemanggilannya.
+```HTML
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contoh program javascript</title>
+    <script type="text/javascript">
+      function pesan(){
+        alert ("Memanggil javascript lewat body onload")
+      }
+    </script>
+  </head>
+  <body onload=pesan()>
+  </body>
+</html>
+```
+## Dasar Pemrograman di JavaScript
+1. Operasi dasar aritmatika.
+```HTML
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contoh program javascript</title>
+    <script type="text/javascript">
+      function test (val1, val2)
+      {
+        document.write("<br>"+"pekalian : val1*val2 "+"<br>")
+        document.write(val1*val2)
+        document.write("<br>"+"pembagian : val1/val2 "+"<br>")
+        document.write(val1/val2)
+        document.write("<br>"+"penjumlahan : val1+val2 "+"<br>")
+        document.write(val1+val2)
+        document.write("<br>"+"pengurangan : val1-val2 "+"<br>")
+        document.write(val1-val2)
+        document.write("<br>"+"modulus : val1%val2 "+"<br>")
+        document.write(val1%val2)
+      }
+    </script>
+  </head>
+  <body>
+    <input type="button" name="button1" value="arithmetic" onclick=test(9,4)>
+  </body>
+</html>
+```
+
+2. Seleksi kondisi (if..else)
+```HTML
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>contoh if-else</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      <!--
+        var nilai = prompt("nilai (0-100): ", 0);
+        var hasil = "";
+        if (nilai >= 60)
+        hasil = "Lulus";
+        else
+        hasil = "Tidak Lulus";
+        document.write("Hasil: "+ hasil);
+      //-->
+    </script>
+  </body>
+</html>
+```
