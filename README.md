@@ -25,3 +25,4 @@ Membuat dokumen HTML dengan nama file lab5_javascript.html seperti berikut.
   </body>
 </html>
 ```
+![1](.../SS/1.PNG)
