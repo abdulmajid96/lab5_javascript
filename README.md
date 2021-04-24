@@ -165,3 +165,43 @@ Membuat dokumen HTML dengan nama file lab5_javascript.html seperti berikut.
 ```
 ![3.2.1](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/3.2.1.PNG)
 ![3.2.2](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/3.2.2.PNG)
+
+3. Penggunaan operator switch untuk seleksi kondisi.
+```HTML
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contoh program javascript</title>
+    <script type="text/javascript">
+      function test ()
+      {
+        val1=window.prompt("input nilai (1-5):")
+        switch (val1)
+        {
+          case "1":
+            document.write("Bilangan satu")
+            break
+          case "2":
+            document.write("Bilangan dua")
+            break
+          case "3":
+            document.write("Bilangan tiga")
+            break
+          case "4":
+            document.write("Bilangan empat")
+            break
+          case "5":
+            document.write("Bilangan lima")
+            break
+          default:
+            document.write("Bilangan lainnya")
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <input type="button" name="button1" value="switch" onclick=test()>
+  </body>
+</html>
+```
