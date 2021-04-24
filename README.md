@@ -106,6 +106,8 @@ Membuat dokumen HTML dengan nama file lab5_javascript.html seperti berikut.
   </body>
 </html>
 ```
+![2.4](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/2.4.PNG)
+
 ## Dasar Pemrograman di JavaScript
 1. Operasi dasar aritmatika.
 ```HTML
@@ -135,6 +137,8 @@ Membuat dokumen HTML dengan nama file lab5_javascript.html seperti berikut.
   </body>
 </html>
 ```
+![3.1.1](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/3.1.1.PNG)
+![3.1.2](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/3.1.2.PNG)
 
 2. Seleksi kondisi (if..else)
 ```HTML
@@ -159,3 +163,5 @@ Membuat dokumen HTML dengan nama file lab5_javascript.html seperti berikut.
   </body>
 </html>
 ```
+![3.2.1](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/3.2.1.PNG)
+![3.2.2](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/3.2.2.PNG)
