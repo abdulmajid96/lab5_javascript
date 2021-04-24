@@ -312,3 +312,53 @@ Pilihan menggunakan checkBox dengan perhitungan otomatis.
   </body>
 </html>
 ```
+![5](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/5.PNG)
+
+## Pertanyaan dan Tugas
+1. Buat script untuk melakukan validasi pada isian form.
+
+## Jawab
+1. Berikut adalah script untuk melakukan validasi isian form, sebagai contoh saya membuat validasi untuk form login.
+```HTML
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Validasi Isian Form</title>
+    <script type="text/javascript">
+      function validasi() {
+        var nama = document.getElementById("nama").value;
+        var email = document.getElementById("email").value;
+        var alamat = document.getElementById("alamat").value;
+        if (nama != "" && email!="" && alamat !="") {
+          return true;
+        }else{
+          alert('Anda harus mengisi data dengan lengkap !');
+        }
+      }
+      </script>
+    </head>
+    <body>
+      <h2>Validasi Isian Form</h2>
+      <div class="login">
+        <form action="#" method="POST" onSubmit="validasi()">
+          <div>
+            <label>Nama Lengkap:</label>
+            <input type="text" name="nama" id="nama" />
+          </div>
+          <div>
+            <label>Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label>Alamat:</label>
+            <textarea cols="40" rows="5" name="alamat" id="alamat"></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Daftar" class="tombol">
+          </div>
+        </form>
+      </div>
+    </body>
+</html>
+```
