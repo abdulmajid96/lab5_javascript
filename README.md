@@ -236,3 +236,39 @@ Membuat dokumen HTML dengan nama file lab5_javascript.html seperti berikut.
   </body>
 </html>
 ```
+![4.1](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/4.1.PNG)
+
+2. Form Button.
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>objek document</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      <!--
+      function ubahWarnaLB(warna){
+        document.bgColor = warna;
+      }
+      function ubahWarnaLD(warna){
+        document.fgColor = warna;
+      }
+      //-->
+    </script>
+    <h1>tes</h1>
+    <form>
+      <input type="button" value="Latar Belakang Hijau" onclick="ubahWarnaLB('GREEN')">
+      <input type="button" value="Latar Belakang Putih" onclick="ubahWarnaLB('WHITE')">
+      <input type="button" value="Teks Kuning" onclick="ubahWarnaLD('YELLOW')">
+      <input type="button" value="Teks Biru" onclick="ubahWarnaLD('BLUE')">
+    </form>
+    <script type="text/javascript">
+      <!--
+      document.write("Dimodifikasi terakhir pada " + document.lastModified);
+      //-->
+    </script>
+  </body>
+</html>
+```
