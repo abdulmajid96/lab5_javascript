@@ -205,3 +205,34 @@ Membuat dokumen HTML dengan nama file lab5_javascript.html seperti berikut.
   </body>
 </html>
 ```
+![3.3.1](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/3.3.1.PNG)
+![3.3.2](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/3.3.2.PNG)
+![3.3.3](https://github.com/abdulmajid96/lab5_javascript/blob/main/SS/3.3.3.PNG)
+
+## Pembuatan Form
+1. Form Input.
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form input</title>
+    <script type="text/javascript">
+      function test()
+      {
+        var val1=document.kirim.T1.value
+        if (val1%2==0)
+          document.kirim.T2.value="Bilangan genap"
+        else
+          document.kirim.T2.value="Bilangan ganjil"
+      }
+    </script>
+  </head>
+  <body>
+    <form method="POST" name="kirim">
+      <p>BIL <input type="text" name="T1" size="20">MERUPAKAN BIL <input type="text" name="T2" size="20"></p>
+      <p><input type="button" value="TEBAK" name="B1" onclick=test()></p>
+    </form>
+  </body>
+</html>
+```
