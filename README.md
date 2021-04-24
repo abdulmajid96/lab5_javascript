@@ -1,4 +1,4 @@
-# Praktikum 5: avascript
+# Praktikum 5: Javascript
 # Mata Kuliah Pemrograman WEB
 ```
 Nama  : Abdul Majid
